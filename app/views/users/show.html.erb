@@ -15,4 +15,6 @@
     <% end %>
   </div>
 </div>
-<%= link_to "Back to Community.", users_path, class: 'btn btn-default btn-lg' %>
+<% if user_signed_in? %>
+  <%= link_to "Back to Community.", users_path, class: 'btn btn-default btn-lg' %>
+<% end %>
