@@ -1,3 +1,13 @@
 == README
 
-Subscription based web application
+Subscription based web application to bring together developers, entrepreneurs and investors.  This application is a code-along following the https://codermanual.com/ or https://www.udemy.com/job-ready-web-developer/learn/. My final project is live on Heroku at http://ancient-inlet-1403.herokuapp.com/ (note, it may take awhile to load since my Heroku instance may need to boot up).
+
+In addition to the standard Rails app setup, this app adds a couple Ruby gems to integrate some awesome features into a beginner app.  Below is a list of those extra gems and what purpose they serve in this app.
+
+* bootstrap-sass - Bootstrap framework for quick styling
+* devise - User authentication and login/logout functionality
+* figaro - Heroku config for Rails applications
+* font-awesome-sass - The aptly named awesome set of icons from font-awesome
+* paperclip - handling image uploads for user profiles
+* sass-rails - SCSS for stylesheets
+* stripe - Utilize Stripe API for taking credit card payments and handling user subscriptions
